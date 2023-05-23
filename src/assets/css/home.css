@@ -1,0 +1,78 @@
+@font-face {
+    font-family: PKMN;
+    src: url(/src/assets/font/PokemonSolidNormal-xyWR.ttf)
+}
+
+body {
+    background-image: url(/src/assets/img/pokefondo2.png);
+    background-size: cover;
+}
+
+h1 {
+    font-family: PKMN;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #ffcb05;
+    -webkit-text-stroke: 1px #2b74ba;
+    text-shadow: 2px 5px #c7a008;
+    letter-spacing: 2.5px;
+}
+
+h2 {
+    font-family: PKMN;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #ffcb05;
+    -webkit-text-stroke: 1px #2b74ba;
+    text-shadow: 2px 5px #c7a008;
+    letter-spacing: 2.5px;
+}
+
+h3 {
+    font-family: PKMN;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: #ffcb05;
+    -webkit-text-stroke: 1px #2b74ba;
+    text-shadow: 2px 5px #c7a008;
+    letter-spacing: 2.5px;
+}
+
+.form {
+    font-family: PKMN;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: #ffcb05;
+    -webkit-text-stroke: 1px #2b74ba;
+    text-shadow: none;
+    letter-spacing: 2.5px;
+    border-top: 9px outset #2b74ba;
+    border-right: 9px outset #2b74ba;
+    border-bottom: 9px outset #ffcb05;
+    border-left: 9px outset #ffcb05;
+}
+
+option {
+    font-family: PKMN;
+    font-size: 20px;
+    text-align: center;
+    color: #2b74ba;
+    letter-spacing: 5px;
+}
+
+button {
+    font-family: PKMN;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: #ffcb05;
+    -webkit-text-stroke: 1px #2b74ba;
+
+    letter-spacing: 2.5px;
+    border-top: 9px outset #2b74ba;
+    border-right: 9px outset #2b74ba;
+    border-bottom: 9px outset #ffcb05;
+    border-left: 9px outset #ffcb05;
+}
