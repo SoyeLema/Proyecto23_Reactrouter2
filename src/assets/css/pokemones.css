@@ -67,6 +67,7 @@
     border-right: 9px outset #2b74ba;
     border-bottom: 9px outset #ffcb05;
     border-left: 9px outset #ffcb05;
+    width: 300px;
 }
 
 option {

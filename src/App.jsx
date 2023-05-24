@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 
 import Home from "./views/Home";
 import Pokemones from "./views/Pokemones";
+import Pokespera from "./views/Pokespera";
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/pokemones" element={<Pokemones />} />
+          <Route path="/pokemones" element={<Pokespera />} />
           <Route path="/pokemones/:name" element={<Pokemones />} />
         </Routes>
       </BrowserRouter>
